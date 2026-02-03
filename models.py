@@ -22,7 +22,7 @@ import torch
 import torch.nn as nn
 from torch.autograd import Function, Variable
 import math
-from spectral import conv_spectral_norm
+from .spectral import conv_spectral_norm
 import random
 
 class DeinterConcatNoiselevel(torch.nn.Module):
